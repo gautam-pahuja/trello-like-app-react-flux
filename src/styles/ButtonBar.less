@@ -1,0 +1,20 @@
+.ButtonBar {
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  .btn {
+    margin: 0 5px;
+  }
+}
+@media (max-width: @screen-xs-min) {
+  .ButtonBar {
+    .btn-success, .btn-default, .btn-primary {
+      width: 100%;
+      margin: 5px 0px;
+    }
+    margin: 5px 0;
+  }
+  .ButtonBar button:last-child {
+    margin-right: 0px;
+  }
+}
